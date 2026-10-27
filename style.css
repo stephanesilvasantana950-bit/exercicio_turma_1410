@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: plum;
+}
+header{
+    background-color: rgb(105, 3, 118);
+    padding: 25px;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+h2{
+    text-align: center;
+    padding: 80px;
+    font-size: 40px;
+}
+ul li{
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(50, 8, 90);
+    font-size: 20px;
+}
+ul li a:hover{
+    color: chartreuse;
+}
