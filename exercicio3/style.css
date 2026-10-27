@@ -1,0 +1,16 @@
+ *{
+    margin: 0;
+    padding: 0;
+    
+}
+.cartao{
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #000;
+    margin: 16px auto;
+    box-sizing: border-box;
+}
+
+/*1. 344 padding superior 20px,padding inferior; 2px espessura superior; 2px espessura inferior*/
+/*2. a largura agora é de 300 */
+/*3. 1. sem o borde-box O whidth representa 300px, mas sem as bordas e o padding, 2. Ja com o border-box o whidth representa a lagura total incluindo padding e bordas.  Calculo é de padding superior 20px,padding inferior; 2px espessura superior; 2px espessura inferior - 300px do whidth  256 */

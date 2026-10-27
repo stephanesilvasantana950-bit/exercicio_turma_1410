@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    color: white;
+    background-image: url(./pngtree-oil-painting-a-colorful-sunrise-with-rays-of-light-shining-through-image_16944706.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
+.container #ziero{
+    background-color: black;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0;
+    padding: 5px;
+}
+.container #uno{
+    background-color: black;
+    font-size: 30px;
+    margin-top: 0;
+    padding: 2px;
+}
+.container #dos{
+    background-color: black;
+    font-size: 30px;
+    margin-top: 0;
+    padding: 5px;
+}
+.container #tres{
+    background-color: black;
+    font-size: 30px;
+    margin-top: 0;
+    padding: 5px;
+}
+.container #cuatro{
+    background-color: black;
+    font-size: 30px;
+    margin-top: 0;
+    padding: 5px;
+}
+.container #cinco{
+    background-color: black;
+    font-size: 30px;
+    margin-top: 0;
+    padding: 5px;
+}
+.container #sies{
+    background-color: black;
+    font-size: 30px;
+    margin-top: 0;
+    padding: 5px;
+}
+.container #siete{
+    background-color: black;
+    font-size: 30px;
+    margin-top: 0;
+    padding: 5px;
+}
+.container #ocho{
+    background-color: black;
+    font-size: 30px;
+    margin-top: 0;
+    padding: 5px;
+}
+.container #nueve{
+    background-color: black;
+    font-size: 45px;
+    margin-top: 0;
+    padding: 5px;
+    text-align: center;
+}

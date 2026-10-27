@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 0 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+/* Organiza os três cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+/* Estiliza cada caixa */
+.card {
+    width: 250px;
+    max-width: 100%;
+    min-height: 85px;
+    padding: 12px;
+    border: 2px solid #d0d0d0;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estiliza a descrição */
+.card p {
+    font-size: 14px;
+}
+
+/* Ajuste para telas pequenas */
+@media (max-width: 500px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+.topo{
+    background-color: rgb(180, 131, 226);
+    color: aliceblue;
+    padding: 12px 24px;
+    min-height: 75px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+}
+.topo p{
+    font-size: 15px;
+}
+.topo a:hover{
+    color: pink;
+}
+.logo{
+    color: beige;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    gap: 16px;
+}
+.menu a{
+    color: rgb(255, 0, 166);
+    text-decoration: none;
+    font-size: 14px;
+}
+footer #roda{
+    background-color: rgb(95, 54, 95);
+}
+.destaque {
+    min-height: 500px;
+    padding: 40px 7%;
+    background-color: #e8f1fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+.conteudo a{
+    text-decoration: none;
+    color: #7419a9;
+}
+.conteudo a:hover{
+    color: #2d0941;
+}
+.conteudo p{
+    padding: 15px;
+}
+/* Seção Por que participar? */
+.vantagens {
+    padding: 16px 20px 30px;
+    background-color: white;
+    text-align: center;
+}
+
+/* Título da seção */
+.vantagens h2 {
+    font-size: 22px;
+    margin: 0 0 12px;
+    padding: 40px;
+}
+.rodape {
+    padding: 20px;
+    background-color: #ad60da;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
